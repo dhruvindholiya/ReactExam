@@ -1,0 +1,25 @@
+form .form-error {
+    color: red;
+    font-size: 12px;
+    bottom: -2px;
+}
+
+form {
+    min-width: 400px;
+}
+
+.data_table [role="rowgroup"] {
+    background-color: rgba(0, 0, 0, 0.04);
+    width: 100%;
+}
+
+.data_table div[aria-label],
+.data_table div[data-field="id"] .MuiDataGrid-cellContent {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.data_table .css-1lymaxv-MuiDataGrid-root .MuiDataGrid-columnHeader:focus-within, 
+.data_table .css-1lymaxv-MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+    outline:  none;
+}

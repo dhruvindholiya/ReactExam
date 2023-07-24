@@ -1,0 +1,6 @@
+export const COURSE_LOADER = 'COURSE_LOADER'
+export const COURSE_ERROR = 'COURSE_ERROR'
+export const COURSE_GET = 'COURSE_GET'
+export const COURSE_ADD = 'COURSE_ADD'
+export const COURSE_DELETE = 'COURSE_DELETE'
+export const COURSE_UPDATE = 'COURSE_UPDATE'

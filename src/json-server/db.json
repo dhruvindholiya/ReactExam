@@ -1,0 +1,19 @@
+{
+  "name": [
+    {
+      "name": "HTML",
+      "fees": "5000",
+      "id": 1
+    },
+    {
+      "name": "CSS",
+      "fees": "2000",
+      "id": 2
+    },
+    {
+      "name": "React.js",
+      "fees": "10000",
+      "id": 3
+    }
+  ]
+}

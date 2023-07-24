@@ -1,8 +1,7 @@
 import * as React from 'react';
 import { TextField } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import BaseButton from '../../../UI/button/Button';
-import Input from '../../../UI/Input/Input';
+import BaseButton from '../../UI/button/Button';
 
 
 function LoginForm() {
@@ -29,7 +28,7 @@ function LoginForm() {
     return (
         <form className='row g-4' onSubmit={handleLogin}>
             <div className='position-relative'>
-                <Input name='email' className='w-100' type='text' size='small' id="email" label="Email" variant="outlined" />
+                <TextField name='email' className='w-100' type='text' size='small' id="email" label="Email" variant="outlined" />
             </div>
             <div className='position-relative'>
                 <TextField name='password' className='w-100' type='text' size='small' id="password" label="Password" variant="outlined" autoComplete='false' />
